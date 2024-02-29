@@ -55,9 +55,12 @@
 
 
     <dependency>
-      <groupId>org.camunda.template-engines</groupId>
-      <artifactId>camunda-template-engines-freemarker</artifactId>
+      <groupId>org.camunda.community.template.engine</groupId>
+      <artifactId>camunda-7-template-engine-xslt</artifactId>
+      <version>2.2.0</version>
     </dependency>
+
+
     <dependency>
       <groupId>org.camunda.bpm</groupId>
       <artifactId>camunda-engine-plugin-spin</artifactId>

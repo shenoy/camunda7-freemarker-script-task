@@ -16,11 +16,8 @@ public class Application implements CommandLineRunner {
 
   @Override
   public void run(String... args) throws Exception {
-    Map<String,Object> variables = new HashMap<>();
-    variables.put("customer", "John Doe");
-    variables.put("version", "1.0");
     ProcessEngines.getDefaultProcessEngine()
         .getRuntimeService()
-        .startProcessInstanceByKey("xslt-process", variables);
+        .startProcessInstanceByKey("xslt-example");
   }
 }
